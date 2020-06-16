@@ -66,7 +66,7 @@
                     <select class="form-control input-sm" id="company_type" name="company_type" required>
                 <option>-- Select Company Type --</option>
                         <option value="1">WLL</option>
-                        <option value="2">Other</option>
+                        <option value="2">Establishment</option>
                     </select>
                 </div>
                 </div>
@@ -167,12 +167,12 @@
                     <label for="person_name">Card to be Accepted in </label>
                         <div class="form-check">
                             <label class="form-check-label">
-                            <input type="radio" checked value=1 class="form-check-input" name="card_accepted">Debit Card
+                            <input type="checkbox" checked value=1 class="form-check-input" name="card_accepted">Debit Card
                             </label>
                             </div>
                             <div class="form-check">
                             <label class="form-check-label">
-                            <input type="radio" value=2 class="form-check-input" name="card_accepted">Credit Card
+                            <input type="checkbox" value=2 class="form-check-input" name="card_accepted">Credit Card
                             </label>
                          </div>
                     </div>
@@ -180,12 +180,12 @@
                     <label for="person_name">Payment Types to be Accepted</label>
                         <div class="form-check">
                             <label class="form-check-label">
-                            <input type="radio" checked value=1 class="form-check-input" name="payment_type">Cash
+                            <input type="checkbox" checked value=1 class="form-check-input" name="payment_type">Cash
                             </label>
                             </div>
                             <div class="form-check">
                             <label class="form-check-label">
-                            <input type="radio" value=2 class="form-check-input" name="payment_type">Card
+                            <input type="checkbox" value=2 class="form-check-input" name="payment_type">Card
                             </label>
                          </div>
                     </div>
